@@ -1,0 +1,35 @@
+{
+    "$schema": "https://json.schemastore.org/jsconfig",
+    "display": "React Native",
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ES2015",
+      "allowJs": true,
+      "checkJs": false,
+      "jsx": "react-native",
+      "lib": [
+        "ESNext",
+        "DOM",
+        "ES2019",
+        "ES2020.BigInt",
+        "ES2020.String",
+        "ES2021.String",
+        "ES2022.String"
+      ],
+      "noEmit": true,
+      "isolatedModules": true,
+      "strict": true,
+      "moduleResolution": "bundler",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": false
+    },
+    "exclude": [
+      "node_modules",
+      "babel.config.js",
+      "metro.config.js",
+      "jest.config.js"
+    ]
+  }
+  
